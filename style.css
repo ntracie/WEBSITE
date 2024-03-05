@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital,wght@0,400;0,700;1,400;1,700&family=Inter:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap")
+body {
+}
+.imagecover {
+  background: url("https://www.apple.com/newsroom/images/2023/09/apple-unveils-iphone-15-pro-and-iphone-15-pro-max/article/Apple-iPhone-15-Pro-lineup-hero-230912_Full-Bleed-Image.jpg.xlarge.jpg");
+  background-size: cover;
+  text-align: center;
+}
+.imagecover h1 {
+  font-size: 4rem;
+  color: whitesmoke;
+}
+.imagecover h3 {
+  font-size: 1rem;
+  color: whitesmoke;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+header {
+  background-color: black;
+  padding: 1rem 8rem;
+  display: flex;
+  gap: 3rem;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+}
+header a {
+  text-decoration: none;
+  color: grey;
+  font-size: 13px;
+}
+header {
+  font-size: 22px;
+}
+section {
+  min-height: 100vh;
+  padding: 5rem 4rem;
+}
+.tag {
+  font-size: 1.1rem;
+}
+a {
+  padding: 0.5rem;
+}
+.coverimg {
+  background: url("https://www.apple.com/v/iphone-15/c/images/meta/iphone-15_overview__gm0jynt55aai_og.png?202402222100");
+  background-repeat: none;
+  background-position: center;
+  height: 90%;
+  background-size: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.coverimg h1 {
+  color: black;
+}
+.coverimg h4 {
+  color: black;
+}
+.visionpro {
+  background: url("https://www.apple.com/newsroom/images/2024/01/apple-vision-pro-available-in-the-us-on-february-2/article/Apple-Vision-Pro-availability-hero_big.jpg.large.jpg");
+  background-size: 80%;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.visionpro h1 {
+  color: black;
+}
+.left-typ {
+  text-align: center;
+  background-repeat: none;
+  background-size: 100%;
+  background-position: centcer;
+  width: 50%;
+  height: 60%;
+  color: white;
+  background-color: black;
+}
+.left-typ h4 {
+  color: red;
+}
+.types {
+  display: flex;
+  width: 100%;
+  /* height: 100vh; */
+}
+.right-typ {
+  text-align: center;
+  background-repeat: none;
+  background-size: 100%;
+  background-position: center;
+  width: 50%;
+}
+.right-typ img {
+  width: 80%;
+}
+.left-typ img {
+  width: 80%;
+}
+.left-typ-2 {
+  text-align: center;
+}
+.left-typ-2 img {
+  background-color: white;
+  width: 40%;
+}
+.right-typ-2 {
+  text-align: center;
+  width: 50%;
+}
+.left-typ-3 {
+  width: 50%;
+  text-align: center;
+}
+.left-typ-3 img {
+  width: 60%;
+}
+.right-typ-3 {
+  width: 70%;
+  text-align: center;
+}
+.right-typ-3 img {
+  width: 70%;
+}
+.pgf {
+  font-family: "Gentium Book Plus", serif;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(0, 208, 255);
+}
+/* .foot {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+ 
+}
+.tracy {
+  width:20%;
+   padding: .5rem;
+} */
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    
+}
+.container-2{
+    display: flex;
+    gap: 2rem;
+    margin-top: 1rem;
+}
+.aps{
+    color: blue;
+}
+.shop{
+    margin-bottom: 1rem;
+}
+.term{
+    padding-bottom: 2rem;
+}
